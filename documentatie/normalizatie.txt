@@ -1,0 +1,26 @@
+0nv 
+
+reserveringsID E
+tafelnummer E
+datum E
+tijd E
+klant voornaam E
+klant achternaam E
+status E
+datum van toevoegen E
+aantal totaal E
+aantal kinderen E
+allegiën E
+opmerkingen E
+
+
+(reserveringsID, tafelnummer, datum, tijd, klant voornaam, klant achternaam, status, datum van toevoegen, aantal totaal, aantal kinderen, allegiën, opmerkingen)
+
+1nv
+(reserveringsID, tafelnummer, datum, tijd, klant voornaam, klant achternaam, status, datum van toevoegen, aantal totaal, aantal kinderen, allegiën, opmerkingen)
+
+2nv
+(reserveringsID, tafelnummer, datum, tijd, klant voornaam, klant achternaam, status, datum van toevoegen, aantal totaal, aantal kinderen, allegiën, opmerkingen)
+
+3nv
+(reserveringsID, tafelnummer, datum, tijd, klant voornaam, klant achternaam, status, datum van toevoegen, aantal totaal, aantal kinderen, allegiën, opmerkingen)

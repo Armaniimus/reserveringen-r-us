@@ -1,0 +1,23 @@
+<form class="myform" action="/main/bestellingtoevoegen" method="post">
+    <br>
+    <br>
+    <input type="hidden" name="reserveringenID" value="{reserveringenID}">
+    <input type="hidden" name="tafelnummer" value="{tafelnummer}">
+
+    <label for="datum">datum</label><br>
+    <input type="date" name="datum" value="" id="datum"><br><br>
+
+    <label for="tijd">tijd</label><br>
+    <input type="time" name="tijd" value="" id="tijd"><br><br>
+
+    <label for="menu item code">menu item code</label><br>
+    <input type="number" name="menu item code" value="" id="menu item code"><br><br>
+
+    <label for="aantal">aantal</label><br>
+    <input type="number" name="aantal" value="" id="aantal"><br><br>
+
+    <label for="prijs">prijs</label><br>
+    <input type="number" step="0.01" name="prijs" id="prijs"><br><br>
+
+    <input class="button" type="submit" name="submit" value="verstuur">
+</form>

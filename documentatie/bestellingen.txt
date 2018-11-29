@@ -1,0 +1,11 @@
+bestellingid
+reserveringid
+tafelnummer
+datum
+tijd
+menu item code
+aantal
+prijs
+
+
+bestelling invoeren wordt geactiveerd bij het klikken op het tafelnummer

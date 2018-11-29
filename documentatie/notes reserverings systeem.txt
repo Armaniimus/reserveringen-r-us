@@ -1,0 +1,28 @@
+1. lijst met gegevens
+2. classifiseren(elementair, constant, process)
+3. normalizeren
+4. erd
+5. data dictonairy
+
+6. database maken
+7. maak test data
+8. start met programmeren
+
+
+eisen applicatie
+overzicht reserveringen
+toevoegen reserveringen
+
+benodigde informatie reserveringen
+reserveringsID
+tafelnummer
+datum
+tijd
+klant voornaam
+klant achternaam
+status
+datum van toevoegen
+aantal totaal
+aantal kinderen
+allegiën
+opmerkingen
