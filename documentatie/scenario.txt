@@ -1,0 +1,9 @@
+receptie ontvangt telefoon voert informatie in receptie lid verzint de tafel
+view laat reservering van vandaag zien
+bestelling invoeren rechterkant kan je zien wat er in staat
+
+barman ziet de dranken levert ze en markeerd ze als geleverd
+kok ziet de gerechten levert ze als geleverd
+
+ober kan een bon uitdraaien vanuit de applicatie
+

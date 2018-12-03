@@ -1,0 +1,26 @@
+gerechten
+
+
+voorgerechten VOG
+  warme voorgerechten wv-g
+  koude voorgerechten kv-g
+
+hoofdgerechten HOG
+  overschotels os
+    lasange
+    mousaka
+
+  vlees gerechten vl-g
+    biefstuk met champions en sla
+    spareribs met friet
+
+  vis gerechten vi-g
+    makreel met friet
+    kreeft met salade
+
+nagerechten NAG
+  ijs
+    vanille ijs met chocolade saus
+  
+  gebak  
+    appeltaart
