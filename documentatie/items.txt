@@ -6,8 +6,8 @@ voorgerechten VOG
   koude voorgerechten kv-g
 
 hoofdgerechten HOG
-  overschotels os
-    lasange
+  ovenschotels os
+    lasange la
     mousaka
 
   vlees gerechten vl-g
@@ -19,8 +19,8 @@ hoofdgerechten HOG
     kreeft met salade
 
 nagerechten NAG
-  ijs
+  ijs i
     vanille ijs met chocolade saus
   
-  gebak  
+  gebak   gbk
     appeltaart

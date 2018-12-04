@@ -1,17 +1,17 @@
 <div class="row">
     <div class="col-xs-8">
-        <h1>bestellingenoverzicht</h1>
+        <h2>Bestelling toevoegen</h2>
         <form class="myform" action="/main/bestellingtoevoegen" method="post">
             <br>
             <br>
             <input type="hidden" name="reserveringenID" value="{reserveringenID}">
             <input type="hidden" name="tafelnummer" value="{tafelnummer}">
 
-            <label for="datum">datum</label><br>
-            <input type="date" name="datum" value="" id="datum"><br><br>
+            <!-- <label for="datum">datum</label><br> -->
+            <input type="hidden" name="datum" value="" id="datum">
 
-            <label for="tijd">tijd</label><br>
-            <input type="time" name="tijd" value="" id="tijd"><br><br>
+            <!-- <label for="tijd">tijd</label><br> -->
+            <input type="hidden" name="tijd" value="" id="tijd">
 
             <label for="menu item code">menu item code</label><br>
             <input type="number" name="menu item code" value="" id="menu item code"><br><br>
@@ -27,6 +27,45 @@
     </div>
 
     <div class="sidebar-bestellingen col-xs-4">
+        <h2>Bestelling overzicht</h2>
         {bestellingen}
     </div>
 </div>
+<script>
+    const now = new Date(Date.now());
+
+    const setTime = function(now) {
+        let min = now.getMinutes();
+        if (min < 10) {
+            min = '0' + String(min);
+        }
+
+        let hours = now.getHours();
+        if (hours < 10) {
+            hours = '0' + String(hours);
+        }
+
+        const time = hours + ':' + min;
+        document.getElementById('tijd').value = time
+    }(now);
+
+    const setDate = function(now) {
+        let date = now.getDate();
+        if (date < 10) {
+            date = '0' + String(date);
+            console.log('date=' + date);
+        }
+
+        let month = now.getMonth();
+        if (month < 10) {
+            month = '0' + String(month);
+            console.log('month=' + month);
+        }
+
+        const year = now.getFullYear();
+        const datum = year + '-' + month + '-' + date;
+
+        document.getElementById('datum').value = datum;
+        console.log(datum);
+    }(now);
+</script>

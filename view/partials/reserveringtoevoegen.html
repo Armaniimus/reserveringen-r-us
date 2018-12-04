@@ -19,8 +19,8 @@
     <label for="status">status</label><br>
     <input type="text" name="status" value="" id="status"><br><br>
 
-    <label for="datum van toevoegen">datum van toevoegen</label><br>
-    <input type="date" name="datum_van_toevoegen" value="" id="datum van toevoegen"><br><br>
+    <!-- <label for="datum van toevoegen">datum van toevoegen</label><br> -->
+    <input type="hidden" name="datum_van_toevoegen" value="" id="datum van toevoegen">
 
     <label for="aantal totaal">aantal totaal</label><br>
     <input type="number" name="aantal_totaal" value="" id="aantal totaal"><br><br>
@@ -36,3 +36,42 @@
 
     <input class="button" type="submit" name="submit" value="verstuur">
 </form>
+<script>
+    const now = new Date(Date.now());
+
+    const setTime = function(now) {
+        let min = now.getMinutes();
+        if (min < 10) {
+            min = '0' + String(min);
+        }
+
+        let hours = now.getHours();
+        if (hours < 10) {
+            hours = '0' + String(hours);
+        }
+
+        const time = hours + ':' + min;
+        document.getElementById('tijd').value = time
+    }(now);
+
+    const setDate = function(now) {
+        let date = now.getDate();
+        if (date < 10) {
+            date = '0' + String(date);
+            console.log('date=' + date);
+        }
+
+        let month = now.getMonth();
+        if (month < 10) {
+            month = '0' + String(month);
+            console.log('month=' + month);
+        }
+
+        const year = now.getFullYear();
+        const datum = year + '-' + month + '-' + date;
+
+        document.getElementById('datum').value = datum;
+        document.getElementById('datum van toevoegen').value = datum;
+        console.log(datum);
+    }(now);
+</script>

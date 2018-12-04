@@ -102,8 +102,13 @@ Class HtmlElements {
                 $row = "<tr class='$tablename--tr'>";
                 "<td></td>";
                     foreach ($value as $columnName => $v) {
-                        $columnName[0] = strToUpper($columnName[0]);
-                        $row .= "<th class='$tablename--th'>" . $columnName . "</th>";
+                        if ($columnName == 'bestellingID' || $columnName == 'reserveringenID') {
+                            continue;
+
+                        } else {
+                            $columnName[0] = strToUpper($columnName[0]);
+                            $row .= "<th class='$tablename--th'>" . $columnName . "</th>";
+                        }
                     }
                     if ($extraLength > 0) {
                         $extraColumnName[0] = strToUpper($extraColumnName[0]);
@@ -129,6 +134,7 @@ Class HtmlElements {
      */
     private function buttonedTableBody($dataArray2d, $tablename, $extraColumnsArray) {
         // table Body
+        //
         $body = "<tbody class='$tablename--tbody'>";
 
             $i=0;
@@ -137,6 +143,10 @@ Class HtmlElements {
                     foreach ($value as $k => $v) {
                         if ($k == 'tafelnummer') {
                             $row .= "<td class='$tablename--td'><a href='/main/bestellingtoevoegen/" . $value['reserveringenID'] . "/" . $value['tafelnummer'] . "'>" . $value[$k] . "</a></td>";
+
+                        } else if ($k == 'bestellingID' || $k == 'reserveringenID') {
+                            continue;
+
                         } else {
                             $row .= "<td class='$tablename--td'>" . $value[$k] . "</td>";
                         }
