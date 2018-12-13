@@ -1,0 +1,7 @@
+Version 1.1
+
+18-Dec-2006
+---------------------------------------------------------------
+ » Todor Iliev <todor.iliev@viplord.com>
+	- Added ability to send cards as text with flash content
+	

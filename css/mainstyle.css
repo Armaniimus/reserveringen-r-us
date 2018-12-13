@@ -1,0 +1,130 @@
+html{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+table{
+	border: thin solid Black;
+}
+img {
+	border: none;
+}
+td h3{
+	background-color: Background;
+	color: White;
+	text-align: center;
+}
+
+#red{
+	background: Red;
+	color: White;
+	font-weight: bold;
+}
+#blue{
+	background: blue;
+	color: White;
+	font-weight: bold;
+}
+#green{
+	background: green;
+	color: White;
+	font-weight: bold;
+}
+#white{
+	background: white;
+	color: black;
+	font-weight: bold;
+}
+#gray{
+	color: White;
+	font-weight: bold;
+	background: Gray;
+}
+#purple{
+	background: purple;
+	color: White;
+	font-weight: bold;
+}
+#black{
+	background: black;
+	color: White;
+	font-weight: bold;
+}
+
+#yellow{
+	background: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+#f1{
+	font-family: Arial;
+}
+#f2{
+	font-family: Balthazar;
+}
+#f3{
+	font-family: Chicago;
+}
+#f4{
+	font-family: Garamond;
+}
+#f5{
+	font-family: Georgia;
+}
+#f6{
+	font-family: "Times New Roman";
+}
+#f7{
+	font-family: "Victorian LET";
+}
+#f8{
+	font-family: "Rage Italic LET";
+}
+
+#s1{
+	font-size: xx-small;
+}
+#s2{
+	font-size: x-small;
+}
+#s3{
+	font-size: small;
+}
+#s4{
+	font-size: medium;
+}
+#s5{
+	font-size: large;
+}
+#s6{
+	font-size: x-large;
+}
+#s7{
+	font-size: xx-large;
+}
+
+#st1{
+	font-weight: bold;
+}
+#st2{
+	font-style: italic;
+}
+#st3{
+	text-decoration: underline;
+}
+
+#p1{
+	text-align: left;
+}
+#p2{
+	text-align: center;
+}
+#p3{
+	text-align: right;
+}
+.hide{
+	display: none;
+}
+.p{
+	text-align: center;
+}

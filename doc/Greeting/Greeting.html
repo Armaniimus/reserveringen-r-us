@@ -1,0 +1,642 @@
+<html>
+<head>
+<title>Docs For Class Greeting</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">Greeting</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+  		  [ <a href="../classtrees_Greeting.html" class="menu">class tree: Greeting</a> ]
+		  [ <a href="../elementindex_Greeting.html" class="menu">index: Greeting</a> ]
+		  [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_Greeting.html">Greeting</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../Greeting/_class.php4.greeting.php.html">		class.php4.greeting.php
+		</a><br>
+			<a href="../Greeting/_class.php5.greeting.php.html">		class.php5.greeting.php
+		</a><br>
+			<a href="../Greeting/_example_1.php.html">		example_1.php
+		</a><br>
+			<a href="../Greeting/_example_2.php.html">		example_2.php
+		</a><br>
+			<a href="../Greeting/_example_3.php.html">		example_3.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../Greeting/Greeting.html">Greeting</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: Greeting</h1>
+Source Location: /class.php4.greeting.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre></pre><br />
+<div class="description">Greeting card class for php 4.x</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+                                              <li>Todor Iliev (TheLordOfWeb) &lt;<a href="mailto:todor.iliev@viplord.com">todor.iliev@viplord.com</a>&gt; &lt;http://viplord.com/&gt;</li>
+      </ul>
+
+
+
+
+                    
+          
+      
+<h4>Version:</h4>
+<ul>
+  <li>1.1</li>
+</ul>
+
+<h4>Copyright:</h4>
+<ul>
+  <li>Copyright (C)2006 Todor Iliev . All rights reserved.</li>
+</ul>
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../Greeting/Greeting.html#var$mAddTxt">$mAddTxt</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mBg">$mBg</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mError">$mError</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mFileName">$mFileName</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mSendFromMail">$mSendFromMail</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mSendFromName">$mSendFromName</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mSendToMail">$mSendToMail</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mSubject">$mSubject</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mText">$mText</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mTextColor">$mTextColor</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mTextFont">$mTextFont</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mTextPos">$mTextPos</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mTextSize">$mTextSize</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mTextStyle">$mTextStyle</a></li>
+    <li><a href="../Greeting/Greeting.html#var$mType">$mType</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../Greeting/Greeting.html#methodGreeting">Greeting</a></li>
+    <li><a href="../Greeting/Greeting.html#methodCreateFlash">CreateFlash</a></li>
+    <li><a href="../Greeting/Greeting.html#methodCreateHtml">CreateHtml</a></li>
+    <li><a href="../Greeting/Greeting.html#methodCreateText">CreateText</a></li>
+    <li><a href="../Greeting/Greeting.html#methodFooterCard">FooterCard</a></li>
+    <li><a href="../Greeting/Greeting.html#methodGetCard">GetCard</a></li>
+    <li><a href="../Greeting/Greeting.html#methodHeaderCard">HeaderCard</a></li>
+    <li><a href="../Greeting/Greeting.html#methodSendCard">SendCard</a></li>
+    <li><a href="../Greeting/Greeting.html#methodShowErrors">ShowErrors</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 44]<br />
+Greeting card class for php 4.x<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_D__www_classes_greeting_example_2.php_90fd464dcde4cc8a44eefab9e39874e6.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_D__www_classes_greeting_example_3.php_a9caeb251c12eb8d98c54cbc9fc6d878.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>example:</b>&nbsp;&nbsp;</td><td><a href="../__examplesource/exsource_D__www_classes_greeting_example_1.php_f1f6044c5b135a3819a4a740361c0e99.html">example</a></td>
+  </tr>
+  <tr>
+    <td><b>license:</b>&nbsp;&nbsp;</td><td><a href="http://www.gnu.org/copyleft/gpl.html">GNU Public License</a></td>
+  </tr>
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td>1.1</td>
+  </tr>
+  <tr>
+    <td><b>copyright:</b>&nbsp;&nbsp;</td><td>Copyright (C)2006 Todor Iliev . All rights reserved.</td>
+  </tr>
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Todor Iliev (TheLordOfWeb) &lt;<a href="mailto:todor.iliev@viplord.com">todor.iliev@viplord.com</a>&gt; &lt;http://viplord.com/&gt;</td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$mAddTxt"></a>
+	<p></p>
+	<h4>$mAddTxt = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 50]</p>
+  Additional text to card<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mBg"></a>
+	<p></p>
+	<h4>$mBg = <span class="value">&nbsp;&nbsp;&nbsp;'#FFFFFF'</span></h4>
+	<p>[line 57]</p>
+  Card background<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mError"></a>
+	<p></p>
+	<h4>$mError = <span class="value">array()</span></h4>
+	<p>[line 147]</p>
+  Array with errors<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>array(int=>string)</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mFileName"></a>
+	<p></p>
+	<h4>$mFileName = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 64]</p>
+  Full URL path to card image<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mSendFromMail"></a>
+	<p></p>
+	<h4>$mSendFromMail = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 71]</p>
+  Sender e-mail address<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mSendFromName"></a>
+	<p></p>
+	<h4>$mSendFromName = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 78]</p>
+  Sender name<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mSendToMail"></a>
+	<p></p>
+	<h4>$mSendToMail = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 85]</p>
+  e-mail address to send<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mSubject"></a>
+	<p></p>
+	<h4>$mSubject = <span class="value">&nbsp;&nbsp;&nbsp;'Greeting&nbsp;card'</span></h4>
+	<p>[line 92]</p>
+  e-mail mSubject<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mText"></a>
+	<p></p>
+	<h4>$mText = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 99]</p>
+  Greeting text<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mTextColor"></a>
+	<p></p>
+	<h4>$mTextColor = <span class="value">&nbsp;&nbsp;&nbsp;'#000000'</span></h4>
+	<p>[line 106]</p>
+  Text color<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mTextFont"></a>
+	<p></p>
+	<h4>$mTextFont = <span class="value">&nbsp;&nbsp;&nbsp;'Verdana,&nbsp;Arial,&nbsp;Helvetica,&nbsp;sans-serif'</span></h4>
+	<p>[line 113]</p>
+  Font name on text<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mTextPos"></a>
+	<p></p>
+	<h4>$mTextPos = <span class="value">&nbsp;&nbsp;&nbsp;'center'</span></h4>
+	<p>[line 120]</p>
+  card position<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mTextSize"></a>
+	<p></p>
+	<h4>$mTextSize = <span class="value">&nbsp;&nbsp;&nbsp;'medium'</span></h4>
+	<p>[line 127]</p>
+  text size<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mTextStyle"></a>
+	<p></p>
+	<h4>$mTextStyle = <span class="value">&nbsp;&nbsp;&nbsp;''</span></h4>
+	<p>[line 134]</p>
+  text style<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$mType"></a>
+	<p></p>
+	<h4>$mType = <span class="value">&nbsp;&nbsp;&nbsp;'html'</span></h4>
+	<p>[line 141]</p>
+  type on e-mail( html or plaint)<br /><br />
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodGreeting"></a>
+	<h3>constructor Greeting <span class="smalllinenumber">[line 155]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void Greeting(
+
+$fileName, string
+$mFileName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Greeting card constructor<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$mFileName</b>&nbsp;&nbsp;</td>
+        <td>Greeting card(file) path and name</td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$fileName</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodCreateFlash"></a>
+	<h3>method CreateFlash <span class="smalllinenumber">[line 249]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string CreateFlash(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Create card with Flash as HTML<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>body without '&lt;/body&gt;&lt;html&gt;' tags</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodCreateHtml"></a>
+	<h3>method CreateHtml <span class="smalllinenumber">[line 229]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string CreateHtml(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Create card with image as HTML<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>body without '&lt;/body&gt;&lt;html&gt;' tags</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodCreateText"></a>
+	<h3>method CreateText <span class="smalllinenumber">[line 276]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string CreateText(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Create body as TEXT<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>Body</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodFooterCard"></a>
+	<h3>method FooterCard <span class="smalllinenumber">[line 216]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string FooterCard(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Greeting card footer<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>end of HTML content</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGetCard"></a>
+	<h3>method GetCard <span class="smalllinenumber">[line 289]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string GetCard(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Get greeting card content<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>full greeting card content</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodHeaderCard"></a>
+	<h3>method HeaderCard <span class="smalllinenumber">[line 164]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string HeaderCard(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Crete greeting card header<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>header on html card content</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodSendCard"></a>
+	<h3>method SendCard <span class="smalllinenumber">[line 318]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boold SendCard(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Send greeting card<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>true on success or false on fail</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodShowErrors"></a>
+	<h3>method ShowErrors <span class="smalllinenumber">[line 307]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void ShowErrors(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Show errors<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Mon, 18 Dec 2006 00:26:04 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.3.1</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
